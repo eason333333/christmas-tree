@@ -1,5 +1,11 @@
 # christmas-tree-v17.6
 
+**在线地址**
+
+- 首页（选版本）：https://eason333333.github.io/christmas-tree/
+- 3D 粒子版：https://eason333333.github.io/christmas-tree/christmas-tree-particles-v17.6.html
+- 浪漫卡片版：https://eason333333.github.io/christmas-tree/christmas-tree-v17.6.html
+
 两个单文件圣诞树网页，都不需要 Node、不需要构建，双击就能打开，也能直接丢到 GitHub Pages / Netlify / Vercel / 对象存储。
 
 | 文件 | 风格 | 依赖 |
