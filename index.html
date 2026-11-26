@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎄 Christmas Tree v17.6</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(circle at 50% 0%, #2a0816 0%, #0b0206 55%, #050002 100%);
+    color: #ffd6e3; font-family: "Times New Roman", "Songti SC", serif; text-align: center; padding: 28px;
+  }
+  .wrap { width: 100%; max-width: 760px; }
+  h1 {
+    font-size: 34px; letter-spacing: 8px; margin: 0 0 8px; font-weight: 400;
+    background: linear-gradient(to bottom, #fff, #ff99cc);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 40px rgba(255, 105, 180, .35);
+  }
+  .sub { color: rgba(255, 182, 193, .6); font-size: 12px; letter-spacing: 4px; margin-bottom: 34px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  a.card {
+    display: block; padding: 22px 18px; border-radius: 20px; text-decoration: none;
+    background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 105, 180, .25);
+    backdrop-filter: blur(10px); transition: all .35s ease;
+  }
+  a.card:hover { transform: translateY(-4px); border-color: rgba(255, 105, 180, .7); box-shadow: 0 12px 40px rgba(255, 105, 180, .18); }
+  .card .name { font-size: 17px; letter-spacing: 2px; color: #ffe6f0; margin-bottom: 8px; }
+  .card .desc { font-size: 12px; line-height: 1.9; color: rgba(255, 182, 193, .62); }
+  .card .tag { display: inline-block; margin-top: 12px; font-size: 10px; letter-spacing: 2px; color: #ffb6c1; border: 1px solid rgba(255, 182, 193, .35); border-radius: 999px; padding: 4px 12px; }
+  footer { margin-top: 30px; font-size: 11px; letter-spacing: 1px; color: rgba(255, 182, 193, .35); }
+  footer a { color: rgba(255, 182, 193, .55); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>CHRISTMAS TREE</h1>
+  <div class="sub">v17.6 · 挑一个版本打开</div>
+
+  <div class="cards">
+    <a class="card" href="christmas-tree-particles-v17.6.html">
+      <div class="name">3D 粒子版</div>
+      <div class="desc">Three.js 粒子圣诞树 + 辉光 + 飘雪<br>拖动旋转 · 单击散开 · 可换照片</div>
+      <span class="tag">WORTH A LOOK</span>
+    </a>
+    <a class="card" href="christmas-tree-v17.6.html">
+      <div class="name">浪漫卡片版</div>
+      <div class="desc">礼物盒开场 + 彩灯圣诞树 + 烟花<br>零依赖，任何网络都能打开</div>
+      <span class="tag">OFFLINE READY</span>
+    </a>
+  </div>
+
+  <footer>
+    <a href="https://github.com/eason333333/christmas-tree">GitHub 仓库</a> · 基于开源项目改造 · MIT / Apache-2.0
+  </footer>
+</div>
+</body>
+</html>
